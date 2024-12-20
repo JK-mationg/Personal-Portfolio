@@ -86,7 +86,6 @@ section {
     position: absolute; 
     bottom: 10px; 
     right: 10px;
-    transform: translateY(100%);
 }
 .project a:hover {
     background-color: #3170d3;
