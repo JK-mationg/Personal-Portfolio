@@ -64,10 +64,6 @@ section {
     transition: transform 0.2s ease-in-out; 
 }
 
-.project:hover {
-  transform: scale(1.05);
-}
-
 .project img {
   max-width: 100%;
   height: auto;
