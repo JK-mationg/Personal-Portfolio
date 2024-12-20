@@ -61,6 +61,11 @@ section {
     display: flex; 
     flex-direction: column; 
     justify-content: space-between; 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.project:hover {
+  transform: scale(1.05);
 }
 
 .project img {
@@ -80,7 +85,6 @@ section {
     border-radius: 5px;
     margin: 0; 
 }
-
 .project a:hover {
     background-color: #3170d3;
 }
