@@ -18,3 +18,9 @@ projects.forEach(project => {
     project.style.backgroundColor = '#e6f7ff'; 
   });
 });
+
+projects.forEach(project => {
+  project.addEventListener('scroll', () => {
+    project.querySelector('a').style.transform = 'translateY(0)'; 
+  });
+});
