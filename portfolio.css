@@ -60,8 +60,11 @@ section {
     text-align: center; 
     display: flex; 
     flex-direction: column; 
-    justify-content: space-between; 
+    height: 300px;
+    width: 300px;
+    overflow-y: auto;
     transition: transform 0.2s ease-in-out; 
+    position: relative;
 }
 
 .project img {
@@ -80,6 +83,9 @@ section {
     text-decoration: none;
     border-radius: 5px;
     margin: 0; 
+    position: absolute; 
+    bottom: 10px; 
+    right: 10px;
 }
 .project a:hover {
     background-color: #3170d3;
