@@ -83,7 +83,7 @@ section {
     text-decoration: none;
     border-radius: 5px;
     margin: 0; 
-    position: absolute; 
+    position: relative; 
     bottom: 10px; 
     right: 10px;
 }
