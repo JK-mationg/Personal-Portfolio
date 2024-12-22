@@ -25,11 +25,16 @@ nav ul {
 
 nav li {
     margin: 0 15px;
+    padding: 0.5rem 1rem;
 }
 
 nav a {
     color: #333333;
-    text-decoration: none;
+    text-decoration-style: double;
+}
+
+nav a:hover {
+    background-color: #FFA07A66;
 }
 
 h1, h2, h3 {
@@ -74,7 +79,7 @@ section {
 }
 
 .project-content {
-    background-color: rgb(255, 247, 239);
+    background-color: #FFA07A33;
     flex-grow: 1; 
     position: relative;
     overflow-y: auto; 
